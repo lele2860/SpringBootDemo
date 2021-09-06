@@ -1,0 +1,4 @@
+# Project exclude paths
+/oki-common/target/
+/oki-core/target/
+/oki-pom/target/
