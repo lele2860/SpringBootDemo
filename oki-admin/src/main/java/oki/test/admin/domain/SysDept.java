@@ -1,6 +1,7 @@
 package oki.test.admin.domain;
 
 import java.util.Date;
+import java.util.List;
 
 public class SysDept {
     private Long id;
@@ -20,6 +21,37 @@ public class SysDept {
     private Date lastUpdateTime;
 
     private Byte delFlag;
+
+    public List<SysDept> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<SysDept> children) {
+        this.children = children;
+    }
+
+    public String getParentName() {
+        return parentName;
+    }
+
+    public void setParentName(String parentName) {
+        this.parentName = parentName;
+    }
+
+    public Integer getLevel() {
+        return level;
+    }
+
+    public void setLevel(Integer level) {
+        this.level = level;
+    }
+
+    // 非数据库字段
+    private List<SysDept> children;
+    // 非数据库字段
+    private String parentName;
+    // 非数据库字段
+    private Integer level;
 
     public SysDept(Long id, String name, Long parentId, Integer orderNum, String createBy, Date createTime, String lastUpdateBy, Date lastUpdateTime, Byte delFlag) {
         this.id = id;
