@@ -33,6 +33,28 @@ public class SysUser {
 
     private Byte delFlag;
 
+    public String getDeptName() {
+        return deptName;
+    }
+
+    public void setDeptName(String deptName) {
+        this.deptName = deptName;
+    }
+
+    public String getRoleNames() {
+        return roleNames;
+    }
+
+    public void setRoleNames(String roleNames) {
+        this.roleNames = roleNames;
+    }
+
+    // 非数据库字段
+    private String deptName;
+    // 非数据库字段
+    private String roleNames;
+    // 非数据库字段
+
     public SysUser(Long id, String name, String nickName, String avatar, String password, String salt, String email, String mobile, Byte status, Long deptId, String createBy, Date createTime, String lastUpdateBy, Date lastUpdateTime, Byte delFlag) {
         this.id = id;
         this.name = name;
