@@ -4,6 +4,7 @@ import com.google.code.kaptcha.Constants;
 import com.google.code.kaptcha.Producer;
 import oki.test.admin.domain.SysLoginLog;
 import oki.test.admin.services.SysLoginLogService;
+import oki.test.admin.vo.LoginBean;
 import oki.test.common.utils.IOUtils;
 import oki.test.core.http.HttpResult;
 import oki.test.core.page.PageRequest;
@@ -52,6 +53,8 @@ public class SysLoginLogController {
         ImageIO.write(image,"jpg",out);
         IOUtils.closeQuietly(out);
     }
+
+
 
 
 }

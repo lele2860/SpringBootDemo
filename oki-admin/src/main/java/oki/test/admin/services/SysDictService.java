@@ -10,4 +10,9 @@ public interface SysDictService extends CurdService<SysDict> {
 
     List<SysDict> findByLabel(@Param(value = "label") String label);
 
+    /**
+     * 根据名称查询
+     * @param lable
+     * @return
+     */
 }
