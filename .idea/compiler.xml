@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="oki-backup" />
         <module name="oki-core" />
         <module name="oki-common" />
         <module name="oki-admin" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="oki-admin" target="11" />
+      <module name="oki-backup" target="11" />
       <module name="oki-common" target="1.8" />
       <module name="oki-core" target="11" />
       <module name="oki-pom" target="11" />
@@ -22,6 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="oki-admin" options="-parameters" />
+      <module name="oki-backup" options="-parameters" />
       <module name="oki-common" options="-parameters" />
       <module name="oki-core" options="" />
     </option>

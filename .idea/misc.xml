@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/oki-core/pom.xml" />
         <option value="$PROJECT_DIR$/oki-pom/pom.xml" />
         <option value="$PROJECT_DIR$/oki-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/oki-backup/pom.xml" />
+        <option value="$PROJECT_DIR$/oki-monitor/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

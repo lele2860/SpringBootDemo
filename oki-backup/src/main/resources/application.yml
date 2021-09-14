@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: oki-backup
+oki:
+  backup:
+    host: localhost
+    userName: root
+    password: kl002860
+    database: springbootdemo
