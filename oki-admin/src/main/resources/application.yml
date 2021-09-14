@@ -1,4 +1,12 @@
 spring:
+  application:
+    name: oki-admin
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
@@ -24,7 +32,7 @@ spring:
   boot:
     admin:
       client:
-        url: "http://localhost:8080"
+        url: "http://localhost:8082"
 
 mybatis:
   type-aliases-package: oki.test.admin.domain

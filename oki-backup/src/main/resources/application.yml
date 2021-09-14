@@ -6,7 +6,13 @@ spring:
   boot:
     admin:
       client:
-        url: "http://localhost:8081"
+        url: "http://localhost:8082"
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
 oki:
   backup:
     host: localhost
