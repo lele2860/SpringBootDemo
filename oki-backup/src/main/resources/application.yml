@@ -3,9 +3,19 @@ server:
 spring:
   application:
     name: oki-backup
+  boot:
+    admin:
+      client:
+        url: "http://localhost:8081"
 oki:
   backup:
     host: localhost
     userName: root
     password: kl002860
     database: springbootdemo
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

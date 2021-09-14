@@ -21,6 +21,10 @@ spring:
       max-open-prepared-statements: 50
       max-pool-prepared-statement-per-connection-size: 20
       oki: 123
+  boot:
+    admin:
+      client:
+        url: "http://localhost:8080"
 
 mybatis:
   type-aliases-package: oki.test.admin.domain
@@ -32,3 +36,9 @@ pagehelper:
   reasonable: true
   support-methods-arguments: true
   params: count = countSql
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
