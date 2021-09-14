@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/oki-admin/pom.xml" />
         <option value="$PROJECT_DIR$/oki-backup/pom.xml" />
         <option value="$PROJECT_DIR$/oki-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/oki-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/oki-producer2/pom.xml" />
+        <option value="$PROJECT_DIR$/oki-consumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

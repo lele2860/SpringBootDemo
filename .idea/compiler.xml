@@ -7,18 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="oki-producer" />
         <module name="oki-backup" />
+        <module name="oki-producer2" />
+        <module name="oki-admin" />
+        <module name="oki-monitor" />
+        <module name="oki-consumer" />
         <module name="oki-core" />
         <module name="oki-common" />
-        <module name="oki-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="oki-admin" target="11" />
       <module name="oki-backup" target="11" />
       <module name="oki-common" target="1.8" />
+      <module name="oki-consumer" target="11" />
       <module name="oki-core" target="11" />
+      <module name="oki-monitor" target="11" />
       <module name="oki-pom" target="11" />
+      <module name="oki-producer" target="11" />
+      <module name="oki-producer2" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -26,7 +34,11 @@
       <module name="oki-admin" options="-parameters" />
       <module name="oki-backup" options="-parameters" />
       <module name="oki-common" options="-parameters" />
+      <module name="oki-consumer" options="-parameters" />
       <module name="oki-core" options="" />
+      <module name="oki-monitor" options="-parameters" />
+      <module name="oki-producer" options="-parameters" />
+      <module name="oki-producer2" options="-parameters" />
     </option>
   </component>
 </project>

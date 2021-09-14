@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/oki-producer2/.mvn/.mvn.iml" filepath="$PROJECT_DIR$/oki-producer2/.mvn/.mvn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oki-producer2/src/main/main.iml" filepath="$PROJECT_DIR$/oki-producer2/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/oki-admin/oki-admin.iml" filepath="$PROJECT_DIR$/oki-admin/oki-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/oki-backup/oki-backup.iml" filepath="$PROJECT_DIR$/oki-backup/oki-backup.iml" />
       <module fileurl="file://$PROJECT_DIR$/oki-common/oki-common.iml" filepath="$PROJECT_DIR$/oki-common/oki-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oki-consumer/oki-consumer.iml" filepath="$PROJECT_DIR$/oki-consumer/oki-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/oki-core/oki-core.iml" filepath="$PROJECT_DIR$/oki-core/oki-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/oki-monitor/oki-monitor.iml" filepath="$PROJECT_DIR$/oki-monitor/oki-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/oki-pom/oki-pom.iml" filepath="$PROJECT_DIR$/oki-pom/oki-pom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oki-producer/oki-producer.iml" filepath="$PROJECT_DIR$/oki-producer/oki-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oki-producer2/oki-producer2.iml" filepath="$PROJECT_DIR$/oki-producer2/oki-producer2.iml" />
     </modules>
   </component>
 </project>
