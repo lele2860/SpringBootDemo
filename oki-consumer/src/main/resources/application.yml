@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: oki-consumer
+  boot:
+    admin:
+      client:
+        url: "http://localhost:8082"
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+server:
+  port: 8085
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
